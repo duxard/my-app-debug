@@ -2,7 +2,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-asta-two',
-  template: `<p>{{number}}</p>`
+  template: `<p> {{number}} </p>`
 })
 export class AstaTwoComponent {
 
