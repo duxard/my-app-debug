@@ -6,7 +6,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class AstaTwoComponent {
 
-  @Output() counterEmitter = new EventEmitter<number>();
+  @Output() counterEmitter:  EventEmitter<number> = new EventEmitter<number>();
 
   number = 0;
 
