@@ -2,21 +2,15 @@ import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-asta-two',
-  template: `<p> {{number}} </p>`
+  template: `
+    <div class="wrapper">
+      Lorem Ipsum
+    </div>
+    
+    <div>Ipsum Dolorum</div>
+  `
 })
 export class AstaTwoComponent {
 
-  @Output() counterEmitter:  EventEmitter<number> = new EventEmitter<number>();
-
-  number = 0;
-
-  inc() {
-    ++this.number;
-    this.counterEmitter.emit(this.number);
-  } 
   
-  dec() {
-    --this.number;
-  }
-
 }
